@@ -29,13 +29,13 @@ window.addEventListener('load', function () {
         iziToast.show({
             timeout: 2500,
             title: hello,
-            message: '欢迎来到我的主页'
+            message: '欢迎来到坤坤哒主页吖!'
         });
     }, 800);
 }, false)
 
 setTimeout(function () {
-    $('#loading-text').html("字体及文件加载可能需要一定时间")
+    $('#loading-text').html("字体和文件加载可能需要一定时间嗷")
 }, 3000);
 
 //延迟加载音乐播放器
@@ -76,7 +76,7 @@ if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
         iziToast.show({
             timeout: 8000,
             iconUrl: './img/icon/warn.png',
-            message: '您正在使用火狐浏览器，部分功能可能不支持'
+            message: '您使用哒是火狐浏览器，部分功能可能不支持哒'
         });
     }, false)
 }
@@ -158,27 +158,27 @@ $("#social").mouseover(function () {
 $("#github").mouseover(function () {
     $("#link-text").html("去 Github 看看");
 }).mouseout(function () {
-    $("#link-text").html("通过这里联系我");
+    $("#link-text").html("通过这里联系坤坤");
 });
 $("#qq").mouseover(function () {
-    $("#link-text").html("有什么事吗");
+    $("#link-text").html("有什么事呐?");
 }).mouseout(function () {
-    $("#link-text").html("通过这里联系我");
+    $("#link-text").html("通过这里联系坤坤");
 });
 $("#email").mouseover(function () {
     $("#link-text").html("来封 Email");
 }).mouseout(function () {
-    $("#link-text").html("通过这里联系我");
+    $("#link-text").html("通过这里联系坤坤");
 });
 $("#telegram").mouseover(function () {
     $("#link-text").html("你懂的 ~");
 }).mouseout(function () {
-    $("#link-text").html("通过这里联系我");
+    $("#link-text").html("通过这里联系坤坤");
 });
 $("#twitter").mouseover(function () {
     $("#link-text").html("你懂的 ~");
 }).mouseout(function () {
-    $("#link-text").html("通过这里联系我");
+    $("#link-text").html("通过这里联系坤坤");
 });
 
 //更多页面切换
@@ -241,7 +241,7 @@ window.addEventListener('load', function () {
             //移动端隐藏更多页面
             $('#container').attr('class', 'container');
             $("#change").html("Hello&nbsp;World&nbsp;!");
-            $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+            $("#change1").html("要一直可可爱爱哒！奋斗每一天！——坤坤");
 
             //移动端隐藏弹窗页面
             $('#box').css("display", "none");
@@ -274,7 +274,7 @@ document.oncontextmenu = function () {
     iziToast.show({
         timeout: 2000,
         iconUrl: './img/icon/warn.png',
-        message: '为了浏览体验，本站禁用右键'
+        message: '为什么要复制(气气)禁止右键!'
     });
     return false;
 }
@@ -291,7 +291,7 @@ for (var day of days) {
             '<style>html{-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);_filter:none}</style>'
         )
         $("#change").html("Silence&nbsp;in&nbsp;silence");
-        $("#change1").html("今天是中国国家纪念日，全站已切换为黑白模式");
+        $("#change1").html("今天是国家纪念日，已切换为黑白模式嗷!");
         window.addEventListener('load', function () {
             iziToast.show({
                 timeout: 14000,
@@ -315,7 +315,7 @@ color: rgb(244,167,89);
 var styleContent = `
 color: rgb(30,152,255);
 `
-var title1 = '無名の主页'
+var title1 = '漫蓝梦坤哒主页'
 var title2 = `
  _____ __  __  _______     ____     __
 |_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
