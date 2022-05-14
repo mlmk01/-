@@ -35,7 +35,7 @@ window.addEventListener('load', function () {
 }, false)
 
 setTimeout(function () {
-    $('#loading-text').html("字体和文件加载可能需要一定时间嗷")
+    $('#loading-text').html("第一次加载将缓存大部分资源，以便下次快速加载"<br>"请耐心等待嗷!")
 }, 3000);
 
 //延迟加载音乐播放器
