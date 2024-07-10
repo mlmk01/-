@@ -9,4 +9,4 @@
 - 🧨 基础：H5 CSS C Java
 - 🍥 爱好：cosplay，二次元，游戏，书法
 - 📫 我的个人网站: https://www.oikun.com （请欧尼酱不要伤害我）
-- 🎮 喜爱的游戏：穿越火线（CF）、原神（Genshin）、绝地求生（PUBG）
+- 🎮 喜爱的游戏：CF、Genshin、PUBG、VRChat
